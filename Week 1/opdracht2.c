@@ -1,6 +1,6 @@
 #include <stdio.h>
 void print_function( char letter );
-int i;
+int i;                                 // int i declared.
 int ctr;
 int main( void )
 {
