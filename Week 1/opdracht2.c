@@ -1,10 +1,12 @@
 #include <stdio.h>
 void print_function( char letter );
+int i;
 int ctr;
 int main( void )
 {
 char star = '*';
 char dash = '-';
+for (i = 0; i <10; i++)                  // for loop die ervoor zorgt dat de print functie 10x wordt uitgevoerd.
 for (ctr = 0 ; ctr < 10; ctr++ )
 {
 print_function( star );
@@ -13,10 +15,7 @@ printf("\n");
 }
 return 0;
 }
-
-/* hier een loop voor maken, tijdens die tot 10 telt, in de print function moet na het printen 1 worden toegekend aan de eerste loop
-bij 10 moet die stoppen. ik moet nog verzinnen hoe */
-void print_function ( char letter );
+void print_function ( char letter )
 {
 for ( ctr = 0; ctr < 9; ctr++) 
 {
